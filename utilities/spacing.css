@@ -1,0 +1,98 @@
+/* Margin (m-*) */
+.m-0 {
+  margin: var(--leo-space-0);
+}
+
+.m-1 {
+  margin: var(--leo-space-1);
+}
+
+.m-2 {
+  margin: var(--leo-space-2);
+}
+
+.m-3 {
+  margin: var(--leo-space-3);
+}
+
+.m-4 {
+  margin: var(--leo-space-4);
+}
+
+.m-5 {
+  margin: var(--leo-space-5);
+}
+
+.m-6 {
+  margin: var(--leo-space-6);
+}
+
+.mt-1 {
+  margin-top: var(--leo-space-1);
+}
+
+.mb-1 {
+  margin-bottom: var(--leo-space-1);
+}
+
+.ml-1 {
+  margin-left: var(--leo-space-1);
+}
+
+.mr-1 {
+  margin-right: var(--leo-space-1);
+}
+
+/* Padding (p-*) */
+.p-0 {
+  padding: var(--leo-space-0);
+}
+
+.p-1 {
+  padding: var(--leo-space-1);
+}
+
+.p-2 {
+  padding: var(--leo-space-2);
+}
+
+.p-3 {
+  padding: var(--leo-space-3);
+}
+
+.p-4 {
+  padding: var(--leo-space-4);
+}
+
+.p-5 {
+  padding: var(--leo-space-5);
+}
+
+.p-6 {
+  padding: var(--leo-space-6);
+}
+
+/* Expressive helpers */
+.stack-sm>*+* {
+  margin-top: var(--leo-space-2);
+}
+
+.stack-md>*+* {
+  margin-top: var(--leo-space-4);
+}
+
+.stack-lg>*+* {
+  margin-top: var(--leo-space-6);
+}
+
+.inline-gap-sm>*+* {
+  margin-left: var(--leo-space-2);
+}
+
+.inline-gap-md>*+* {
+  margin-left: var(--leo-space-4);
+}
+
+.inline-gap-lg>*+* {
+  margin-left: var(--leo-space-6);
+}
