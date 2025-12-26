@@ -1,0 +1,75 @@
+:root {
+  /* Brand colours */
+  --leo-colour-main: #ff4500;
+  --leo-colour-main-soft: #ff7040;
+  --leo-colour-main-strong: #cc3700;
+
+  --leo-colour-accent: #008080;
+  --leo-colour-accent-soft: #33a3a3;
+  --leo-colour-accent-strong: #005b5b;
+
+  /* Neutral scale */
+  --leo-colour-bg: #fffdfa;
+  --leo-colour-bg-elevated: #ffffff;
+  --leo-colour-surface: #f5f5f5;
+
+  --leo-colour-text: #111111;
+  --leo-colour-text-soft: #555555;
+  --leo-colour-border: #dddddd;
+
+  /* Semantic states */
+  --leo-colour-success: #22a06b;
+  --leo-colour-warning: #f5a623;
+  --leo-colour-danger: #d64545;
+  --leo-colour-info: #1583d8;
+
+  /* Spacing scale (4-based) */
+  --leo-space-0: 0;
+  --leo-space-1: 0.25rem;
+  --leo-space-2: 0.5rem;
+  --leo-space-3: 0.75rem;
+  --leo-space-4: 1rem;
+  --leo-space-5: 1.5rem;
+  --leo-space-6: 2rem;
+  --leo-space-7: 3rem;
+  --leo-space-8: 4rem;
+
+  /* Radius */
+  --leo-radius-none: 0;
+  --leo-radius-sm: 0.125rem;
+  --leo-radius-md: 0.375rem;
+  --leo-radius-lg: 0.75rem;
+  --leo-radius-full: 9999px;
+
+  /* Shadows */
+  --leo-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --leo-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --leo-shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.18);
+
+  /* Typography scale */
+  --leo-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --leo-font-display: "Lobster", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --leo-font-size-xs: 0.75rem;
+  --leo-font-size-sm: 0.875rem;
+  --leo-font-size-md: 1rem;
+  --leo-font-size-lg: 1.25rem;
+  --leo-font-size-xl: 1.5rem;
+  --leo-font-size-2xl: 2rem;
+  --leo-font-size-3xl: 2.5rem;
+
+  --leo-line-tight: 1.1;
+  --leo-line-snug: 1.3;
+  --leo-line-normal: 1.5;
+
+  /* Transitions */
+  --leo-transition-fast: 120ms ease-out;
+  --leo-transition-normal: 180ms ease-out;
+  --leo-transition-slow: 250ms ease;
+
+  /* Breakpoints (for future @media helpers) */
+  --leo-breakpoint-sm: 480px;
+  --leo-breakpoint-md: 768px;
+  --leo-breakpoint-lg: 1024px;
+  --leo-breakpoint-xl: 1280px;
+}
