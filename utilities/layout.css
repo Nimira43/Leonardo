@@ -1,0 +1,88 @@
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: var(--leo-space-1);
+}
+
+.gap-2 {
+  gap: var(--leo-space-2);
+}
+
+.gap-3 {
+  gap: var(--leo-space-3);
+}
+
+.gap-4 {
+  gap: var(--leo-space-4);
+}
+
+.gap-5 {
+  gap: var(--leo-space-5);
+}
+
+/* Expressive combos */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--leo-space-2);
+}
