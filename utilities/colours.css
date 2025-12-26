@@ -1,0 +1,74 @@
+/* Text colours */
+.text-main {
+  color: var(--leo-colour-main);
+}
+
+.text-accent {
+  color: var(--leo-colour-accent);
+}
+
+.text-soft {
+  color: var(--leo-colour-text-soft);
+}
+
+.text-strong {
+  color: var(--leo-colour-text);
+}
+
+.text-success {
+  color: var(--leo-colour-success);
+}
+
+.text-warning {
+  color: var(--leo-colour-warning);
+}
+
+.text-danger {
+  color: var(--leo-colour-danger);
+}
+
+.text-info {
+  color: var(--leo-colour-info);
+}
+
+/* Backgrounds */
+.bg-main {
+  background-color: var(--leo-colour-main);
+}
+
+.bg-main-soft {
+  background-color: var(--leo-colour-main-soft);
+}
+
+.bg-accent {
+  background-color: var(--leo-colour-accent);
+}
+
+.bg-accent-soft {
+  background-color: var(--leo-colour-accent-soft);
+}
+
+.bg-page {
+  background-color: var(--leo-colour-bg);
+}
+
+.bg-surface {
+  background-color: var(--leo-colour-surface);
+}
+
+.bg-elevated {
+  background-color: var(--leo-colour-bg-elevated);
+}
+
+/* Borders */
+.border {
+  border: 1px solid var(--leo-colour-border);
+}
+
+.border-main {
+  border: 1px solid var(--leo-colour-main);
+}
+
+.border-accent {
+  border: 1px solid var(--leo-colour-accent);
+}
