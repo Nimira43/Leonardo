@@ -1,0 +1,79 @@
+/* -----------------------------------------
+   Leonardo Base v1
+   Subtle global defaults built on tokens
+------------------------------------------ */
+
+/* 1. Root defaults */
+html {
+  font-size: 100%;
+  /* 16px default */
+  scroll-behavior: smooth;
+}
+
+/* 2. Body defaults */
+body {
+  background-color: var(--leo-colour-bg);
+  color: var(--leo-colour-text);
+  font-family: var(--leo-font-sans);
+  line-height: var(--leo-line-normal);
+}
+
+/* 3. Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--leo-font-sans);
+  font-weight: 600;
+  color: var(--leo-colour-text);
+  line-height: var(--leo-line-tight);
+}
+
+/* 4. Links */
+a {
+  color: var(--leo-colour-main);
+  text-decoration: none;
+  transition: color var(--leo-transition-fast);
+}
+
+a:hover {
+  color: var(--leo-colour-main-strong);
+}
+
+/* 5. Code elements */
+code {
+  font-family: "Fira Code", "Courier New", monospace;
+  background: var(--leo-colour-surface);
+  padding: 0.15em 0.35em;
+  border-radius: var(--leo-radius-sm);
+  font-size: 0.9em;
+}
+
+/* 6. Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--leo-colour-border);
+  margin: var(--leo-space-4) 0;
+}
+
+/* 7. Buttons inherit font + pointer */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* 8. Images */
+img {
+  border-radius: var(--leo-radius-sm);
+}
+
+/* 9. Strong/emphasis */
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
