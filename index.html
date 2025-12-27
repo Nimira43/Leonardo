@@ -1,34 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./images/user.jpg">
-  <link rel="stylesheet" href="./styles.css">
   <title>Leonardo CSS Framework</title>
+
+  <!-- Google Fonts (Lobster for display) -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- 1. Reset -->
+  <link rel="stylesheet" href="core/reset.css">
+
+  <!-- 2. Tokens -->
+  <link rel="stylesheet" href="core/tokens.css">
+
+  <!-- 3. Base -->
+  <link rel="stylesheet" href="core/base.css">
+  <link rel="stylesheet" href="core/typography.css">
+
+  <!-- 4. Utilities -->
+  <link rel="stylesheet" href="utilities/layout.css">
+  <link rel="stylesheet" href="utilities/spacing.css">
+  <link rel="stylesheet" href="utilities/flex.css">
+  <link rel="stylesheet" href="utilities/grid.css">
+  <link rel="stylesheet" href="utilities/colours.css">
+  <link rel="stylesheet" href="utilities/typography-utils.css">
+
+  <!-- 5. Components (optional for now) -->
+  <!-- <link rel="stylesheet" href="components/buttons.css"> -->
 </head>
-<body>
-  <div class="bg-page min-h-screen flex-center">
-    <div class="bg-elevated border border-main p-4 stack-md"
-      style="box-shadow: var(--leo-shadow-md); border-radius: var(--leo-radius-md);">
-      <h1 class="text-main" style="font-family: var(--leo-font-display); font-size: var(--leo-font-size-2xl);">
+
+<body class="bg-page" style="font-family: var(--leo-font-sans);">
+
+  <!-- Page Wrapper -->
+  <div class="min-h-screen flex-centre p-6">
+
+    <!-- Demo Card -->
+    <div 
+      class="bg-elevated border border-main p-6 stack-md"
+      style="
+        border-radius: var(--leo-radius-lg); 
+        box-shadow: var(--leo-shadow-md); 
+        max-width: 600px; 
+        width: 100%;
+      "
+    >
+
+      <!-- Logo -->
+      <h1 
+        class="text-main" 
+        style="
+          font-family: var(--leo-font-display); 
+          font-size: var(--leo-font-size-3xl);
+        "
+      >
         Leonardo CSS
       </h1>
-      <p class="text-soft">
-        Utility-first, expressive, built for everything, obsessed with developer joy.
+
+      <!-- Tagline -->
+      <p 
+        class="text-soft" 
+        style="
+          line-height: var(--leo-line-normal);
+        "
+      >
+        A utility-first, expressive CSS framework built for everything — crafted with developer joy at its core.
       </p>
-      <div class="inline-gap-md">
-        <button class="bg-main text-strong p-2"
-          style="border-radius: var(--leo-radius-md); box-shadow: var(--leo-shadow-sm);">
+
+      <!-- Buttons Row -->
+      <div class="inline-gap-md flex">
+        <button 
+          class="bg-main text-strong p-2"
+          style="
+            border-radius: var(--leo-radius-md); box-shadow: var(--leo-shadow-sm);
+          "
+        >
           Primary
         </button>
-        <button class="bg-accent text-strong p-2"
-          style="border-radius: var(--leo-radius-md); box-shadow: var(--leo-shadow-sm);">
+
+        <button 
+          class="bg-accent text-strong p-2"
+          style="
+            border-radius: var(--leo-radius-md); box-shadow: var(--leo-shadow-sm);
+          "
+        >
           Accent
         </button>
       </div>
+
+      <!-- Utility Demo -->
+      <div 
+        class="stack-sm p-4 bg-surface border" 
+        style="
+          border-radius: var(--leo-radius-md);
+        "
+      >
+        <h2 
+          class="text-strong" 
+          style="
+            font-size: var(--leo-font-size-lg);
+          "
+        >
+          Utility Demo
+        </h2>
+
+        <p class="text-soft">
+          This box uses <code>.stack-sm</code>, <code>.p-4</code>, <code>.bg-surface</code>, and <code>.border</code>.
+        </p>
+
+        <div class="cluster">
+          <span 
+            class="bg-main-soft p-1" 
+            style="
+              border-radius: var(--leo-radius-sm);
+            "
+          >
+            .cluster
+          </span>
+          <span 
+            class="bg-main-soft p-1" 
+            style="
+              border-radius: var(--leo-radius-sm);
+            "
+          >
+            .flex
+          </span>
+          <span 
+            class="bg-main-soft p-1" 
+            style="
+              border-radius: var(--leo-radius-sm);
+            "
+          >
+            .gap-*
+          </span>
+          <span 
+            class="bg-main-soft p-1" 
+            style="
+              border-radius: var(--leo-radius-sm);
+            "
+          >
+            .stack-*
+          </span>
+        </div>
+      </div>
+
     </div>
   </div>
 
 </body>
+
 </html>

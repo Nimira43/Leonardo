@@ -30,7 +30,7 @@
   align-items: flex-start;
 }
 
-.items-center {
+.items-centre {
   align-items: center;
 }
 
@@ -42,7 +42,7 @@
   justify-content: flex-start;
 }
 
-.justify-center {
+.justify-centre {
   justify-content: center;
 }
 
@@ -75,7 +75,7 @@
 }
 
 /* Expressive combos */
-.flex-center {
+.flex-centre {
   display: flex;
   align-items: center;
   justify-content: center;
