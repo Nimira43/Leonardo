@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo Utility Demo</title>
+
+  <link rel="stylesheet" href="core/reset.css">
+  <link rel="stylesheet" href="core/tokens.css">
+  <link rel="stylesheet" href="core/base.css">
+  <link rel="stylesheet" href="core/typography.css">
+
+  <link rel="stylesheet" href="utilities/layout.css">
+  <link rel="stylesheet" href="utilities/spacing.css">
+  <link rel="stylesheet" href="utilities/flex.css">
+  <link rel="stylesheet" href="utilities/grid.css">
+  <link rel="stylesheet" href="utilities/colours.css">
+  <link rel="stylesheet" href="utilities/typography-utils.css">
+</head>
+
+<body class="bg-page p-6">
+
+  <h1 class="text-main text-3xl font-display mb-6">Leonardo Utility Showcase</h1>
+
+  <div class="stack-lg">
+
+    <!-- Flexbox -->
+    <section>
+      <h2 class="text-strong text-xl mb-2">Flexbox</h2>
+      <div class="flex gap-2 bg-surface p-4 border" style="border-radius: var(--leo-radius-md);">
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Item 1</div>
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Item 2</div>
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Item 3</div>
+      </div>
+    </section>
+
+    <!-- Grid -->
+    <section>
+      <h2 class="text-strong text-xl mb-2">Grid</h2>
+      <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: var(--leo-space-2);">
+        <div class="bg-accent-soft p-3" style="border-radius: var(--leo-radius-sm);">1</div>
+        <div class="bg-accent-soft p-3" style="border-radius: var(--leo-radius-sm);">2</div>
+        <div class="bg-accent-soft p-3" style="border-radius: var(--leo-radius-sm);">3</div>
+      </div>
+    </section>
+
+    <!-- Typography Utilities -->
+    <section>
+      <h2 class="text-strong text-xl mb-2">Typography Utilities</h2>
+      <p class="text-lg leading-snug">This is large text with snug line height.</p>
+      <p class="text-centre tracking-wide">This text is centred with wide tracking.</p>
+      <p class="font-display text-2xl">This uses the display font.</p>
+    </section>
+
+    <!-- Stack -->
+    <section>
+      <h2 class="text-strong text-xl mb-2">Stack</h2>
+      <div class="stack-md bg-surface p-4 border" style="border-radius: var(--leo-radius-md);">
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Stack item 1</div>
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Stack item 2</div>
+        <div class="bg-main-soft p-2" style="border-radius: var(--leo-radius-sm);">Stack item 3</div>
+      </div>
+    </section>
+
+    <!-- Cluster -->
+    <section>
+      <h2 class="text-strong text-xl mb-2">Cluster</h2>
+      <div class="cluster bg-surface p-4 border" style="border-radius: var(--leo-radius-md);">
+        <div class="bg-accent-soft p-2" style="border-radius: var(--leo-radius-sm);">One</div>
+        <div class="bg-accent-soft p-2" style="border-radius: var(--leo-radius-sm);">Two</div>
+        <div class="bg-accent-soft p-2" style="border-radius: var(--leo-radius-sm);">Three</div>
+        <div class="bg-accent-soft p-2" style="border-radius: var(--leo-radius-sm);">Four</div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>

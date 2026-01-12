@@ -1,0 +1,146 @@
+/* -----------------------------------------
+   Leonardo Typography Utilities v1
+   Utility-first, expressive, token-driven
+------------------------------------------ */
+
+/* Font sizes */
+.text-xs {
+  font-size: var(--leo-font-size-xs);
+}
+
+.text-sm {
+  font-size: var(--leo-font-size-sm);
+}
+
+.text-md {
+  font-size: var(--leo-font-size-md);
+}
+
+.text-lg {
+  font-size: var(--leo-font-size-lg);
+}
+
+.text-xl {
+  font-size: var(--leo-font-size-xl);
+}
+
+.text-2xl {
+  font-size: var(--leo-font-size-2xl);
+}
+
+.text-3xl {
+  font-size: var(--leo-font-size-3xl);
+}
+
+/* Line heights */
+.leading-tight {
+  line-height: var(--leo-line-tight);
+}
+
+.leading-snug {
+  line-height: var(--leo-line-snug);
+}
+
+.leading-normal {
+  line-height: var(--leo-line-normal);
+}
+
+/* Font families */
+.font-sans {
+  font-family: var(--leo-font-sans);
+}
+
+.font-display {
+  font-family: var(--leo-font-display);
+}
+
+/* Text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+/* British spelling */
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Font weight */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* Text transform */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalise {
+  text-transform: capitalize;
+}
+
+/* Letter spacing */
+.tracking-tight {
+  letter-spacing: -0.02em;
+}
+
+.tracking-normal {
+  letter-spacing: 0;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
+
+/* Text decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+/* White-space control */
+.nowrap {
+  white-space: nowrap;
+}
+
+.break-normal {
+  overflow-wrap: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}

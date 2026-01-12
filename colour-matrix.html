@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo Colour Matrix</title>
+
+  <link rel="stylesheet" href="core/reset.css">
+  <link rel="stylesheet" href="core/tokens.css">
+  <link rel="stylesheet" href="core/base.css">
+  <link rel="stylesheet" href="utilities/layout.css">
+  <link rel="stylesheet" href="utilities/spacing.css">
+  <link rel="stylesheet" href="utilities/colours.css">
+  <link rel="stylesheet" href="utilities/typography-utils.css">
+
+  <style>
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: var(--leo-space-3);
+    }
+
+    .swatch {
+      padding: var(--leo-space-4);
+      border-radius: var(--leo-radius-md);
+      border: 1px solid var(--leo-colour-border);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 110px;
+    }
+
+    .swatch-label {
+      font-size: var(--leo-font-size-sm);
+      color: var(--leo-colour-text-soft);
+    }
+  </style>
+</head>
+
+<body class="bg-page p-6">
+
+  <h1 class="text-main text-3xl font-display mb-6">Leonardo Colour Matrix</h1>
+
+  <div class="stack-lg">
+
+    <!-- Brand Colours -->
+    <section>
+      <h2 class="text-strong text-xl mb-3">Brand Colours</h2>
+      <div class="swatch-grid">
+
+        <div class="swatch" style="background: var(--leo-colour-main);">
+          <span class="swatch-label">main</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-main-soft);">
+          <span class="swatch-label">main-soft</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-main-strong);">
+          <span class="swatch-label">main-strong</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Accent Colours -->
+    <section>
+      <h2 class="text-strong text-xl mb-3">Accent Colours</h2>
+      <div class="swatch-grid">
+
+        <div class="swatch" style="background: var(--leo-colour-accent);">
+          <span class="swatch-label">accent</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-accent-soft);">
+          <span class="swatch-label">accent-soft</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-accent-strong);">
+          <span class="swatch-label">accent-strong</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Semantic Colours -->
+    <section>
+      <h2 class="text-strong text-xl mb-3">Semantic Colours</h2>
+      <div class="swatch-grid">
+
+        <div class="swatch" style="background: var(--leo-colour-success);">
+          <span class="swatch-label">success</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-warning);">
+          <span class="swatch-label">warning</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-danger);">
+          <span class="swatch-label">danger</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-info);">
+          <span class="swatch-label">info</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Neutral Palette -->
+    <section>
+      <h2 class="text-strong text-xl mb-3">Neutral Palette</h2>
+      <div class="swatch-grid">
+
+        <div class="swatch" style="background: var(--leo-colour-bg);">
+          <span class="swatch-label">bg</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-bg-elevated);">
+          <span class="swatch-label">bg-elevated</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-surface);">
+          <span class="swatch-label">surface</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-border);">
+          <span class="swatch-label">border</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-text); color: white;">
+          <span class="swatch-label">text</span>
+        </div>
+
+        <div class="swatch" style="background: var(--leo-colour-text-soft); color: white;">
+          <span class="swatch-label">text-soft</span>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
