@@ -1,0 +1,160 @@
+/* -----------------------------------------
+   Leonardo Buttons v1 (Revised)
+   Expressive, token-driven, link-safe
+------------------------------------------ */
+
+/* Base button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--leo-space-2) var(--leo-space-4);
+  font-size: var(--leo-font-size-md);
+  font-weight: 500;
+  border-radius: var(--leo-radius-md);
+  cursor: pointer;
+  transition: background var(--leo-transition-fast),
+    box-shadow var(--leo-transition-fast),
+    transform var(--leo-transition-fast),
+    color var(--leo-transition-fast);
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+/* Prevent global <a> styles from leaking into buttons */
+a.btn,
+a.btn:hover,
+a.btn:active,
+a.btn:focus {
+  color: inherit;
+}
+
+/* -----------------------------------------
+   MAIN BUTTON
+------------------------------------------ */
+.btn-main,
+.btn-main:hover,
+.btn-main:active,
+.btn-main:focus {
+  color: var(--leo-colour-bg-elevated);
+}
+
+.btn-main {
+  background: var(--leo-colour-main);
+  box-shadow: var(--leo-shadow-sm);
+}
+
+.btn-main:hover {
+  background: var(--leo-colour-main-strong);
+  box-shadow: var(--leo-shadow-md);
+}
+
+.btn-main:active {
+  transform: scale(0.97);
+}
+
+/* -----------------------------------------
+   ACCENT BUTTON
+------------------------------------------ */
+.btn-accent,
+.btn-accent:hover,
+.btn-accent:active,
+.btn-accent:focus {
+  color: var(--leo-colour-bg-elevated);
+}
+
+.btn-accent {
+  background: var(--leo-colour-accent);
+  box-shadow: var(--leo-shadow-sm);
+}
+
+.btn-accent:hover {
+  background: var(--leo-colour-accent-strong);
+  box-shadow: var(--leo-shadow-md);
+}
+
+.btn-accent:active {
+  transform: scale(0.97);
+}
+
+/* -----------------------------------------
+   SOFT BUTTON
+------------------------------------------ */
+.btn-soft,
+.btn-soft:hover,
+.btn-soft:active,
+.btn-soft:focus {
+  color: var(--leo-colour-text);
+}
+
+.btn-soft {
+  background: var(--leo-colour-surface);
+  border: 1px solid var(--leo-colour-border);
+}
+
+.btn-soft:hover {
+  background: var(--leo-colour-bg-elevated);
+}
+
+/* -----------------------------------------
+   OUTLINE BUTTON
+------------------------------------------ */
+.btn-outline,
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus {
+  color: var(--leo-colour-main);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--leo-colour-main);
+}
+
+.btn-outline:hover {
+  background: var(--leo-colour-main-soft);
+  color: var(--leo-colour-bg-elevated);
+}
+
+/* -----------------------------------------
+   GHOST BUTTON
+------------------------------------------ */
+.btn-ghost,
+.btn-ghost:hover,
+.btn-ghost:active,
+.btn-ghost:focus {
+  color: var(--leo-colour-main);
+}
+
+.btn-ghost {
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  background: var(--leo-colour-surface);
+}
+
+/* -----------------------------------------
+   SHAPES
+------------------------------------------ */
+.btn-pill {
+  border-radius: var(--leo-radius-full);
+}
+
+.btn-block {
+  width: 100%;
+  display: flex;
+}
+
+/* -----------------------------------------
+   SIZES
+------------------------------------------ */
+.btn-sm {
+  padding: var(--leo-space-1) var(--leo-space-3);
+  font-size: var(--leo-font-size-sm);
+}
+
+.btn-lg {
+  padding: var(--leo-space-3) var(--leo-space-5);
+  font-size: var(--leo-font-size-lg);
+}

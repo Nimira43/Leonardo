@@ -1,0 +1,183 @@
+/* -----------------------------------------
+   Leonardo Flex Utilities v1
+   Utility-first, expressive, British
+------------------------------------------ */
+
+/* Display */
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+/* Direction */
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Justify Content */
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-centre {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* Align Items */
+.items-start {
+  align-items: flex-start;
+}
+
+.items-centre {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+/* Align Content */
+.content-start {
+  align-content: flex-start;
+}
+
+.content-centre {
+  align-content: center;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
+.content-between {
+  align-content: space-between;
+}
+
+.content-around {
+  align-content: space-around;
+}
+
+.content-evenly {
+  align-content: space-evenly;
+}
+
+/* Align Self */
+.self-start {
+  align-self: flex-start;
+}
+
+.self-centre {
+  align-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+/* Gap (flex + grid) */
+.gap-1 {
+  gap: var(--leo-space-1);
+}
+
+.gap-2 {
+  gap: var(--leo-space-2);
+}
+
+.gap-3 {
+  gap: var(--leo-space-3);
+}
+
+.gap-4 {
+  gap: var(--leo-space-4);
+}
+
+.gap-5 {
+  gap: var(--leo-space-5);
+}
+
+.gap-6 {
+  gap: var(--leo-space-6);
+}
+
+.gap-7 {
+  gap: var(--leo-space-7);
+}
+
+.gap-8 {
+  gap: var(--leo-space-8);
+}
+
+/* Expressive Combos */
+.flex-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--leo-space-2);
+}

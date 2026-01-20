@@ -1,0 +1,94 @@
+/* -----------------------------------------
+   Leonardo Layout Helpers v1
+   Elegant, expressive, developer-joy focused
+------------------------------------------ */
+
+/* Container (centred, responsive) */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--leo-space-4);
+  padding-right: var(--leo-space-4);
+  max-width: 1200px;
+}
+
+/* Section (vertical rhythm) */
+.section {
+  padding-top: var(--leo-space-8);
+  padding-bottom: var(--leo-space-8);
+}
+
+/* Wrapper (centres content without max-width) */
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--leo-space-4);
+  padding-right: var(--leo-space-4);
+}
+
+/* Flow (automatic spacing between children) */
+.flow>*+* {
+  margin-top: var(--leo-space-4);
+}
+
+/* Stack (expanded version) */
+.stack-xs>*+* {
+  margin-top: var(--leo-space-1);
+}
+
+.stack-sm>*+* {
+  margin-top: var(--leo-space-2);
+}
+
+.stack-md>*+* {
+  margin-top: var(--leo-space-4);
+}
+
+.stack-lg>*+* {
+  margin-top: var(--leo-space-6);
+}
+
+.stack-xl>*+* {
+  margin-top: var(--leo-space-8);
+}
+
+/* Cluster (refined) */
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--leo-space-2);
+  align-items: centre;
+}
+
+/* Sidebar layout (holy grail pattern) */
+.sidebar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--leo-space-4);
+}
+
+.sidebar-reverse {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--leo-space-4);
+}
+
+/* Auto-fit grids */
+.grid-auto-sm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--leo-space-3);
+}
+
+.grid-auto-md {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--leo-space-4);
+}
+
+.grid-auto-lg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--leo-space-5);
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo CSS Framework</title>
+  <link rel="icon" href="./images/TheFavicon.png">
+  <!-- Core -->
+  <link rel="stylesheet" href="core/reset.css">
+  <link rel="stylesheet" href="core/tokens.css">
+  <link rel="stylesheet" href="core/base.css">
+  <link rel="stylesheet" href="core/typography.css">
+  <!-- Utilities -->
+  <link rel="stylesheet" href="utilities/colours.css">
+  <link rel="stylesheet" href="utilities/spacing.css">
+  <link rel="stylesheet" href="utilities/layout.css">
+  <link rel="stylesheet" href="utilities/layout-helpers.css">
+  <link rel="stylesheet" href="utilities/flex.css">
+  <link rel="stylesheet" href="utilities/grid.css">
+  <link rel="stylesheet" href="utilities/typography-utils.css">
+  <link rel="stylesheet" href="utilities/effects.css">
+  <!-- Components -->
+  <link rel="stylesheet" href="components/buttons.css">
+</head>
+
+<body class="bg-page">
+
+  <!-- HERO -->
+  <header class="section bg-elevated shadow-md">
+    <div class="container stack-md">
+      <h1 class="font-display text-main text-3xl">Leonardo CSS</h1>
+      <p class="lead">
+        A utility-first and expressive CSS framework built for developer joy.
+      </p>
+      <div class="cluster">
+        <a href="colours.html" class="btn btn-main">Colour System</a>
+        <a href="utilities-demo.html" class="btn btn-accent">Utilities Demo</a>
+        <a href="buttons.html" class="btn btn-outline">Buttons</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- QUICK START -->
+  <section class="section">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Quick Start</h2>
+      <p>Include Leonardo's core and utilities in your project:</p>
+
+      <pre class="bg-surface p-4 radius-md border"><code>
+&lt;link rel="stylesheet" href="core/reset.css"&gt;
+&lt;link rel="stylesheet" href="core/tokens.css"&gt;
+&lt;link rel="stylesheet" href="core/base.css"&gt;
+&lt;link rel="stylesheet" href="utilities/colours.css"&gt;
+&lt;link rel="stylesheet" href="utilities/spacing.css"&gt;
+&lt;link rel="stylesheet" href="utilities/flex.css"&gt;
+&lt;link rel="stylesheet" href="utilities/grid.css"&gt;
+&lt;link rel="stylesheet" href="components/buttons.css"&gt;
+      </code></pre>
+    </div>
+  </section>
+
+  <!-- COLOURS -->
+  <section class="section bg-elevated">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Colours</h2>
+      <p>Leonardo includes a full colour system with brand, accent, semantic, and neutral palettes.</p>
+
+      <div class="grid-auto-md">
+        <div class="p-4 bg-main radius-md text-elevated">Main</div>
+        <div class="p-4 bg-main-soft radius-md">Main Soft</div>
+        <div class="p-4 bg-accent radius-md text-elevated">Accent</div>
+        <div class="p-4 bg-accent-soft radius-md">Accent Soft</div>
+        <div class="p-4"
+          style="background: var(--leo-colour-success); border-radius: var(--leo-radius-md); color: white;">Success
+        </div>
+        <div class="p-4"
+          style="background: var(--leo-colour-danger); border-radius: var(--leo-radius-md); color: white;">Danger</div>
+      </div>
+
+      <a href="colours.html" class="btn btn-soft">View Full Colour Matrix</a>
+    </div>
+  </section>
+
+  <!-- TYPOGRAPHY -->
+  <section class="section">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Typography</h2>
+      <p class="lead">Leonardo includes a full type scale, display classes, and utilities.</p>
+
+      <p class="text-3xl font-display">Display 3XL</p>
+      <p class="text-xl leading-snug">XL with snug line height</p>
+      <p class="text-centre tracking-wide">Centred with wide tracking</p>
+    </div>
+  </section>
+
+  <!-- BUTTONS -->
+  <section class="section bg-elevated">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Buttons</h2>
+      <div class="cluster">
+        <button class="btn btn-main">Main</button>
+        <button class="btn btn-accent">Accent</button>
+        <button class="btn btn-soft">Soft</button>
+        <button class="btn btn-outline">Outline</button>
+        <button class="btn btn-ghost">Ghost</button>
+      </div>
+
+      <a href="buttons.html" class="btn btn-soft">View Button Showcase</a>
+    </div>
+  </section>
+
+  <!-- LAYOUT HELPERS -->
+  <section class="section">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Layout Helpers</h2>
+      <p>Containers, sections, stacks, clusters, wrappers, and auto-fit grids.</p>
+
+      <div class="stack-sm bg-surface p-4 radius-md border">
+        <div class="bg-main-soft p-2 radius-sm">Stack item 1</div>
+        <div class="bg-main-soft p-2 radius-sm">Stack item 2</div>
+        <div class="bg-main-soft p-2 radius-sm">Stack item 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEX + GRID -->
+  <section class="section bg-elevated">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Flex & Grid</h2>
+
+      <div class="flex gap-2 bg-surface p-4 radius-md border">
+        <div class="bg-accent-soft p-2 radius-sm">1</div>
+        <div class="bg-accent-soft p-2 radius-sm">2</div>
+        <div class="bg-accent-soft p-2 radius-sm">3</div>
+      </div>
+
+      <div class="grid-cols-3 grid-gap-3 grid bg-surface p-4 radius-md border">
+        <div class="bg-main-soft p-2 radius-sm">A</div>
+        <div class="bg-main-soft p-2 radius-sm">B</div>
+        <div class="bg-main-soft p-2 radius-sm">C</div>
+      </div>
+
+      <a href="utilities-demo.html" class="btn btn-soft">View Full Utilities Demo</a>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="section">
+    <div class="container flow">
+      <h2 class="text-strong text-xl">Philosophy</h2>
+      <p>
+        Leonardo is built on three principles:
+      </p>
+      <ul class="flow">
+        <li><strong>Expressiveness</strong> — readable, elegant class names.</li>
+        <li><strong>Developer Joy</strong> — utilities that feel good to use.</li>
+        <li><strong>British Flavour</strong> — colour, centre, and a bit of charm.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="section bg-surface border-top">
+    <div class="container text-centre">
+      <p class="text-soft small">Made with joy by NimiraTech</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+/* -----------------------------------------
+   Leonardo Effects v1
+   Shadows + Radii utilities
+------------------------------------------ */
+
+/* Shadows */
+.shadow-sm {
+  box-shadow: var(--leo-shadow-sm);
+}
+
+.shadow-md {
+  box-shadow: var(--leo-shadow-md);
+}
+
+.shadow-lg {
+  box-shadow: var(--leo-shadow-lg);
+}
+
+/* Radii */
+.radius-none {
+  border-radius: var(--leo-radius-none);
+}
+
+.radius-sm {
+  border-radius: var(--leo-radius-sm);
+}
+
+.radius-md {
+  border-radius: var(--leo-radius-md);
+}
+
+.radius-lg {
+  border-radius: var(--leo-radius-lg);
+}
+
+.radius-full {
+  border-radius: var(--leo-radius-full);
+}
+
+/* Borders */
+.border {
+  border: 1px solid var(--leo-colour-border);
+}
+
+.border-main {
+  border: 1px solid var(--leo-colour-main);
+}
+
+.border-accent {
+  border: 1px solid var(--leo-colour-accent);
+}
